@@ -9,6 +9,7 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
 import { MultimediaComponent } from './multimedia/multimedia.component';
 import { ContactenosComponent } from './contactenos/contactenos.component';
 import { FinalComponent } from './final/final.component';
+import { PruebaComponent } from './prueba/prueba.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FinalComponent } from './final/final.component';
     ProyectosComponent,
     MultimediaComponent,
     ContactenosComponent,
-    FinalComponent
+    FinalComponent,
+    PruebaComponent
   ],
   imports: [
     BrowserModule,
